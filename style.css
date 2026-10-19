@@ -758,7 +758,7 @@ body {
 .hero {
   position: relative;
   isolation: isolate;
-  background: #171715;
+  background: transparent;
 }
 
 .hero-image {
