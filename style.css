@@ -753,3 +753,36 @@ body {
     font-size: 9px;
   }
 }
+/* SEVRA — CAMPAIGN IMAGE */
+
+.hero {
+  isolation: isolate;
+  background: #171715;
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(15, 15, 14, 0.18),
+      rgba(15, 15, 14, 0.05)
+    ),
+    url("sevra-campaign.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 600px) {
+  .hero-image {
+    background-position: 60% center;
+  }
+}
