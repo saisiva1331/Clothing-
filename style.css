@@ -450,3 +450,105 @@ img {
   }
 }
 
+/* SEVRA — First Drop Product Section */
+#shop {
+  padding: 90px 6%;
+  background: #f0eee8;
+  color: #111;
+}
+
+#shop .eyebrow,
+.product-category {
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#shop h2 {
+  font-size: clamp(32px, 5vw, 64px);
+  line-height: 1;
+  margin: 18px 0;
+  letter-spacing: -2px;
+}
+
+#shop .section-description {
+  color: #666;
+  margin-bottom: 38px;
+}
+
+#shop .product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 32px;
+}
+
+#shop .product-image {
+  min-height: 280px;
+  display: flex;
+  align-items: flex-end;
+  padding: 18px;
+  box-sizing: border-box;
+  background: #d6d1c6;
+  color: #111;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+#shop .product-image-one {
+  background: linear-gradient(145deg, #383632, #a49b8c);
+  color: #fff;
+}
+
+#shop .product-image-two {
+  background: linear-gradient(145deg, #dedbd3, #aaa69d);
+}
+
+#shop .product-category {
+  margin-top: 22px;
+  color: #777;
+}
+
+#shop .product-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#shop .product-card p {
+  line-height: 1.6;
+}
+
+#shop .product-price {
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+#shop .button {
+  display: inline-block;
+  padding: 14px 18px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+#shop .button:hover {
+  background: #444;
+}
+
+@media (max-width: 600px) {
+  #shop {
+    padding: 60px 5%;
+  }
+
+  #shop .product-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  #shop .product-image {
+    min-height: 320px;
+  }
+}
+
